@@ -1,0 +1,25 @@
+name: firebase_core_platform_interface
+description: A common platform interface for the firebase_core plugin.
+homepage: https://github.com/firebase/flutterfire/tree/main/packages/firebase_core/firebase_core_platform_interface
+repository: https://github.com/firebase/flutterfire/tree/main/packages/firebase_core/firebase_core_platform_interface
+# NOTE: We strongly prefer non-breaking changes, even at the expense of a
+# less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
+version: 5.2.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  collection: ^1.19.0
+  flutter:
+    sdk: flutter
+  # Needed to export the mocks
+  flutter_test:
+    sdk: flutter
+  meta: ^1.15.0
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  mockito: ^5.4.4
+  pigeon: ^21.2.0
